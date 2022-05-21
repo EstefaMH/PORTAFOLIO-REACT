@@ -1,0 +1,13 @@
+nav{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.item{
+    text-decoration: none;
+    color: blue;
+}
+
+.item:hover{
+    color: yellowgreen;
+}
