@@ -1,0 +1,15 @@
+.main-container-studies{
+    background-image: url(../../utils/img/purple-blue-wallpaper.webp);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+.line-studies{
+    border-top: 2.5px solid white;
+}
+
+.title{
+    text-align: center;
+    color : white;
+}

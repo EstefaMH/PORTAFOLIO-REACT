@@ -1,0 +1,34 @@
+.container-skills{
+    display: flex;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    padding: 3%;
+    justify-content: space-evenly;
+}
+
+.container-skills img{
+    width: 100px;
+    box-sizing: border-box ;
+    border-radius: 100% ; 
+    padding: 5%;
+    animation: rotate 2.5s ease-in infinite;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 2% ;
+}
+
+
+
+.skill-name{
+    font-weight: 600;
+
+}
+
+.container{
+    background-color: white;
+    height: 300px;
+}

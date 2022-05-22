@@ -1,11 +1,11 @@
 import React  from "react";
 import {BrowserRouter , Switch , Route , Link , Routes}from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/Aboutme";
-import Jobs from "./pages/Jobs";
-import Error404 from "./pages/Error404";
-import Studies from "./pages/Studies";
-import Skills from "./pages/Skills";
+import Home from "./pages/home/Home";
+import About from "./pages/aboutme/Aboutme";
+import Jobs from "./pages/jobs/Jobs";
+import Error404 from "./pages/error/Error404";
+import Studies from "./pages/studies/Studies";
+import Skills from "./pages/skills/Skills";
 
 
 function routes(){
