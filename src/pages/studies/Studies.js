@@ -10,18 +10,21 @@ function Studies() {
                 <h1 className='title'>ESTUDIOS</h1>
                 <p className='line-studies'></p>
             </section>
-            <section>
-                <article>
-                    <h3>Tecnico en sistemas de informacion con profundizacion en desarrollo front-end </h3>
-                    <p className='line-studies'></p>
-                    <p><strong>INSTITUCION :</strong> Kuepa Edutech</p>
+            <section className='container-studies'>
+                <article className='studies'>
+                    <h4>Tecnico en sistemas de información </h4>
+                    <h6>con profundizacion en desarrollo front-end </h6>
+                    <p className='line'></p>
+                    <p className='title-info-studies'><strong>INSTITUCIÓN </strong> </p>
+                    <p className='info-studies'>Kuepa Edutech</p>
 
                 </article>
 
-                <article>
-                     <h3>ingeniería de software </h3>
-                     <p className='line-studies'></p>
-                     <p><strong>INSTITUCION :</strong> Intitucion universitaria UCompensar</p>
+                <article className='studies'>
+                     <h3>Ingeniería de software </h3>
+                     <p className='line'></p>
+                     <p className='title-info-studies'><strong>INSTITUCIÓN  </strong> </p>
+                     <p className='info-studies'>Intitución universitaria UCompensar</p>
                     
                 </article>
 

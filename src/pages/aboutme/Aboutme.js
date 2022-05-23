@@ -23,7 +23,7 @@ function About() {
 
             <section className='container-contact'>
                 <h2>CONTACTO</h2>
-                <p className='lc'>________________________________________</p>
+                <p className='lc'>______________</p>
 
 
                 <article className='container-contact-icons'>

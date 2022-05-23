@@ -8,7 +8,7 @@ h1{
     font-size: 2rem;
 }
 
-.main-container-about{
+.main-container-about{ 
     background-image: url(../../utils/img/purple-blue-wallpaper.webp);
 
 }
@@ -92,6 +92,10 @@ h2{
 .contact-icons:hover{
     transform: scale(1.1 , 1.1);
    
+}
+
+.contact-icons p {
+    font-size: 0.7rem;
 }
 
 .line{
