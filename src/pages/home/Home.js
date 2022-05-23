@@ -15,7 +15,7 @@ function Home() {
                 <article className='info-home'>
                     <p className='info-home1'>Hola, soy Estefania Moncaleano</p>
                     <p className='info-home2'>Desarrolladora Web</p>
-                    <button className='btn btn-one'><span>Contactame</span></button>
+                    <button className='btn btn-one '><span>Contactame</span></button>
 
                 </article>
 
