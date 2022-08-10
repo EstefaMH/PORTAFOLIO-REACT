@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26a057fe.css",
+    "main.js": "/static/js/main.42455881.js",
+    "static/media/tefa_photo.png": "/static/media/tefa_photo.304d922ba0943b1a10e4.png",
+    "static/media/404.png": "/static/media/404.9165f30e265c28ea830a.png",
+    "static/media/CDType - Voga Medium.otf": "/static/media/CDType - Voga Medium.6934166f5074112f830d.otf",
+    "static/media/Biancha-X3VOa.otf": "/static/media/Biancha-X3VOa.361ac54e839bac08e9a4.otf",
+    "static/media/Logo- COCOA.png": "/static/media/Logo- COCOA.b2a87d9bf22e40fa04c3.png",
+    "static/media/css-icon.webp": "/static/media/css-icon.028d45d615e357e183cb.webp",
+    "static/media/Alcubierre 400.otf": "/static/media/Alcubierre 400.7867184e6b66a1c2226e.otf",
+    "static/media/purple-blue-wallpaper.webp": "/static/media/purple-blue-wallpaper.5daa241712a3f2be0fa7.webp",
+    "static/media/js-icon.png": "/static/media/js-icon.4cf889d0c7029602b15d.png",
+    "static/media/html-icon.webp": "/static/media/html-icon.0020fac2e4f2d098132d.webp",
+    "static/media/react-icon.svg": "/static/media/react-icon.acecaab0434bde9efb00b8e3726a79b3.svg",
+    "index.html": "/index.html",
+    "static/media/bx-menu.svg": "/static/media/bx-menu.0dbfdfdd2a4d7af8ec74956226515500.svg",
+    "main.26a057fe.css.map": "/static/css/main.26a057fe.css.map",
+    "main.42455881.js.map": "/static/js/main.42455881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26a057fe.css",
+    "static/js/main.42455881.js"
+  ]
+}
