@@ -1,5 +1,7 @@
 runtime: custom
 env: flex 
 
-
+steps:
+- entrypoint: npm
+  args: ["run" , "build"]
 
