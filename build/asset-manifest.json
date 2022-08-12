@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.26a057fe.css",
-    "main.js": "/static/js/main.42455881.js",
+    "main.css": "/static/css/main.4cc4aa8e.css",
+    "main.js": "/static/js/main.b45ea5fd.js",
     "static/media/tefa_photo.png": "/static/media/tefa_photo.304d922ba0943b1a10e4.png",
     "static/media/404.png": "/static/media/404.9165f30e265c28ea830a.png",
     "static/media/CDType - Voga Medium.otf": "/static/media/CDType - Voga Medium.6934166f5074112f830d.otf",
@@ -15,11 +15,11 @@
     "static/media/react-icon.svg": "/static/media/react-icon.acecaab0434bde9efb00b8e3726a79b3.svg",
     "index.html": "/index.html",
     "static/media/bx-menu.svg": "/static/media/bx-menu.0dbfdfdd2a4d7af8ec74956226515500.svg",
-    "main.26a057fe.css.map": "/static/css/main.26a057fe.css.map",
-    "main.42455881.js.map": "/static/js/main.42455881.js.map"
+    "main.4cc4aa8e.css.map": "/static/css/main.4cc4aa8e.css.map",
+    "main.b45ea5fd.js.map": "/static/js/main.b45ea5fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.26a057fe.css",
-    "static/js/main.42455881.js"
+    "static/css/main.4cc4aa8e.css",
+    "static/js/main.b45ea5fd.js"
   ]
 }
