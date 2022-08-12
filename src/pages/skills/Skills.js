@@ -6,6 +6,7 @@ import icon_css from '../../utils/img/css-icon.webp'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer';
 import logo_cocoa from '../../utils/img/Logo- COCOA.png'
+import { Link } from 'react-router-dom'
 
 function Skills() {
     return (
@@ -52,11 +53,12 @@ function Skills() {
                             <img src={icon_js}></img>
                             <img src={icon_react}></img>
                         </div>
-                        <button className='btn btn-one'>Ver más</button>
+                        <a href='https://cocoa-react-by5hggei3-estefamh.vercel.app/'><button className='btn btn-one'>Ver más</button></a>
                     </div>
                 </article>
 
             </section>
+
 
             <Footer />
         </div>

@@ -140,6 +140,7 @@
 
 .btn-one:hover{
     background-color: transparent;
+    font-weight: 700;
 }
 .btn-one::before {
 	content: '';
@@ -184,6 +185,12 @@
 	opacity: 0;	
 	transform: scale(0.1, 1);
     background: transparent;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 700px) {
