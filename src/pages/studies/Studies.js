@@ -17,6 +17,8 @@ function Studies() {
                     <p className='line'></p>
                     <p className='title-info-studies'><strong>INSTITUCIÓN </strong> </p>
                     <p className='info-studies'>Kuepa Edutech</p>
+                    <p className='title-info-studies'><strong>720hrs virtuales </strong> </p>
+                    
 
                 </article>
 
