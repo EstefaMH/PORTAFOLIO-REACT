@@ -1,9 +1,8 @@
 steps:
-- name: 'gcr.io/cloud-builders/yarn'
-    args: ['install']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '--tag=southamerica-east1-docker.pkg.dev/estefania-359014/dockercloud/app-image', '.']
+    args: [ 'build', '-t', 'gcr.io/estefania-359014/bq-to-ftp', '.' , '-f', 'Dockerfile']
   # push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/estefania-359014/bq-to-ftp']
 images:
-  - 'southamerica-east1-docker.pkg.dev/estefania-359014/dockercloud/app-image'
-
+  - 'gcr.io/estefania-359014/bq-to-ftp'
