@@ -1,8 +1,20 @@
+# This is script for https://cloud.google.com/cloud-build/
 steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    args: [ 'build', '-t', 'gcr.io/estefania-359014/bq-to-ftp', '.' , '-f', 'Dockerfile']
-  # push the container image to Container Registry
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/estefania-359014/bq-to-ftp']
-images:
-  - 'gcr.io/estefania-359014/bq-to-ftp'
+# Install
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['install']
+# Lint
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['run', 'lint']
+# Test
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['run', 'unittest']
+# Build
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['run', 'build']
+  env:
+  - 'REACT_APP_BACKEND_URL=${C:\Users\Janus\Desktop\FRONT-END\REACT\portafolioreact}'
+  - 'NODE_PATH=./src'
+# Deploy
+- name: gcr.io/cloud-builders/gsutil
+  args: ["-m", "rsync", "-d"]
