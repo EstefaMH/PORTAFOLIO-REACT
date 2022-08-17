@@ -1,20 +1,9 @@
-# This is script for https://cloud.google.com/cloud-build/
 steps:
-# Install
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['install']
-# Lint
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['run', 'lint']
-# Test
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['run', 'unittest']
-# Build
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['run', 'build']
-  env:
-  - 'REACT_APP_BACKEND_URL=${C:\Users\Janus\Desktop\FRONT-END\REACT\portafolioreact}'
-  - 'NODE_PATH=./src'
-# Deploy
-- name: gcr.io/cloud-builders/gsutil
-  args: ["-m", "rsync", "-d"]
+- name: 'gcr.io/cloud-builders/npm'
+    args: ['install']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '--tag=southamerica-east1-docker.pkg.dev/estefania-359014/dockercloud/app-image', '.']
+  # push the container image to Container Registry
+images:
+  - 'southamerica-east1-docker.pkg.dev/estefania-359014/dockercloud/app-image'
+
