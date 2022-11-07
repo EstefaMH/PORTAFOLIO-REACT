@@ -31,19 +31,19 @@ function About() {
 
                     <div className='contact-icons'>
                         <a target={'_blank'} href='https://github.com/EstefaMH'>
-                            <img className='contact-icon' src={github} />
+                            <img alt='contact-icon' className='contact-icon' src={github} />
                         </a>
                         <p>https://github.com/EstefaMH</p>
                     </div>
 
                     <div className='contact-icons'>
-                        <img className='contact-icon' src={gmail} />
+                        <img alt='contact-icon' className='contact-icon' src={gmail} />
                         <p>estefymoncaleano@gmail.com</p>
                     </div>
 
                     <div className='contact-icons'>
                         <a target={'_blank'} href='www.linkedin.com/in/estefanía-moncaleano-828570238'>
-                            <img className='contact-icon' src={linkedin} />
+                            <img alt='contact-icon' className='contact-icon' src={linkedin} />
                         </a>
                         <p>www.linkedin.com/in/estefanía-moncaleano</p>
                     </div>

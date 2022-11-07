@@ -1,12 +1,10 @@
-steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    args: [
-        "build",
-        "-t",
-        "gcr.io/my-project/github.com/EstefaMH/project.com:$COMMIT_SHA",
-        "./backend"]
-  # push the container image to Container Registry
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/estefania-359014/bq-to-ftp']
-images:
-  - 'gcr.io/estefania-359014/bq-to-ftp'
+  steps:
+  - name: node
+    entrypoint: npm
+    args: ['install']
+
+  - name: node
+    entrypoint: npm
+    args: ['run', 'build']
+
+ 

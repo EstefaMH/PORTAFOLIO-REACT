@@ -1,6 +1,7 @@
 @font-face {
     font-family: "alcubierre";
     src: url('../../utils/fonts/Alcubierre\ 400.otf') ;
+    font-display: swap;
 }
 
 

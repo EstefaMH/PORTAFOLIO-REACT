@@ -1,6 +1,7 @@
 @font-face {
     font-family: "lettering";
     src: url('../../utils/fonts/Biancha-X3VOa.otf') ;
+    font-display: swap;
 }
 
 .navbar {

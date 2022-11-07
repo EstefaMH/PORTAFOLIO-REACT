@@ -20,7 +20,7 @@ function Home() {
                 </article>
 
                 <article className='photo-home'>
-                    <img src={tefa}/>
+                    <img alt='tefa-foto' src={tefa}/>
                 </article>
 
                
