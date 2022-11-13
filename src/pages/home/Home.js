@@ -11,7 +11,6 @@ function Home() {
 
             <section className='container-home'>
                 
-
                 <article className='info-home'>
                     <p className='info-home1'>Hola, soy Estefania Moncaleano</p>
                     <p className='info-home2'>Desarrolladora Web</p>
@@ -22,13 +21,10 @@ function Home() {
                 <article className='photo-home'>
                     <img alt='tefa-foto' src={tefa}/>
                 </article>
-
-               
+    
             </section>
 
             <Footer />
-
-
         </div>
     );
 }

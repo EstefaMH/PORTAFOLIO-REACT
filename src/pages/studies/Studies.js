@@ -18,8 +18,6 @@ function Studies() {
                     <p className='title-info-studies'><strong>INSTITUCIÓN </strong> </p>
                     <p className='info-studies'>Kuepa Edutech</p>
                     <p className='title-info-studies'><strong>720hrs virtuales </strong> </p>
-                    
-
                 </article>
 
                 <article className='studies'>
@@ -30,11 +28,8 @@ function Studies() {
                     
                 </article>
 
-
             </section>
             
-            
-
             <Footer />
         </div>
     );
